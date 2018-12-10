@@ -1,0 +1,116 @@
+_model: page
+---
+title: PyCharm shortcuts
+---
+body:
+
+<h2>Editing I</h2>
+<p><strong>ctrl+[SPACE]</strong> — Complete code</p>
+<p><strong>shift+ctrl+/</strong> — Comment/uncomment code with block comments</p>
+<p><strong>ctrl+/</strong> — Comment/uncomment current line or selected block with line comments</p>
+<p><strong>shift+ctrl+↵</strong> — Complete Current Statement</p>
+<p><strong>ctrl+I</strong> — Implement base interface/class methods in the current class</p>
+<p><strong>ctrl+O</strong> — Override base class methods in the current class</p>
+<p><strong>ctrl+P</strong> — Show parameters of the method call at caret</p>
+<p><strong>alt+ctrl+T</strong> — Surround selected code fragment with if, while, try/catch or other construct</p>
+<h2>Editing II</h2>
+<p><strong>alt+ctrl+I</strong> — Indent current line or selected block according to the code style settings</p>
+<p><strong>ctrl+C</strong> — Copy to clipboard</p>
+<p><strong>ctrl+X</strong> — Cut to clipboard</p>
+<p><strong>ctrl+V</strong> — Paste from clipboard</p>
+<p><strong>shift+ctrl+V</strong> — Paste from recent clipboards</p>
+<p><strong>shift+alt+ctrl+V</strong> — Paste without formatting, autoimport, literal escaping etc.</p>
+<p><strong>alt+ctrl+L</strong> — Reformat code</p>
+<p><strong>alt+↵</strong> — Show Intention Actions</p>
+<p><strong>shift+TAB</strong> — Unindent Selection</p>
+<h2>Editing III</h2>
+<p><strong>ctrl+Y</strong> — Delete Line</p>
+<p><strong>ctrl+DEL</strong> — Delete to Word End</p>
+<p><strong>ctrl+BACKSPACE</strong> — Delete to Word Start</p>
+<p><strong>ctrl+D</strong> — Duplicate Line or Block</p>
+<p><strong>ctrl+=</strong> — Expand folding region at caret</p>
+<p><strong>shift+ctrl+=</strong> — Expand all folding regions</p>
+<p><strong>shift+ctrl+J</strong> — Join Lines</p>
+<p><strong>ctrl+↵</strong> — Split Line</p>
+<p><strong>shift+↵</strong> — Start New Line</p>
+<p><strong>alt+ctrl+↵</strong> — Start New Line Before Current</p>
+<p><strong>shift+ctrl+U</strong> — Toggle Case</p>
+<h2>Running / Debugging</h2>
+<p><strong>shift+F10</strong> — Run</p>
+<p><strong>shift+F9</strong> — Debug</p>
+<p><strong>alt+5</strong> — Activate Debug window</p>
+<p><strong>shift+alt+F9</strong> — Choose and debug configuration</p>
+<p><strong>alt+F8</strong> — Evaluate arbitrary expression</p>
+<p><strong>F9</strong> — Resume program execution</p>
+<p><strong>shift+ctrl+F10</strong> — Run context configuration</p>
+<p><strong>alt+F9</strong> — Run to the line where the caret is</p>
+<p><strong>shift+alt+F10</strong> — Choose and run configuration</p>
+<p><strong>shift+F7</strong> — Step into the particular method</p>
+<p><strong>F7</strong> — Step to the next line executed</p>
+<p><strong>shift+F8</strong> — Step to the first line executed after returning from this method</p>
+<p><strong>F8</strong> — Step to the next line in this file</p>
+<p><strong>shift+ctrl+F8</strong> — View and manage all breakpoints and watchpoints</p>
+<h2>Navigation I</h2>
+<p><strong>ctrl+B</strong> — Navigate to the declaration of the symbol at caret</p>
+<p><strong>ctrl+0</strong> — Go to Bookmark 0</p>
+<p><strong>ctrl+1</strong> — Go to Bookmark 1</p>
+<p><strong>ctrl+2</strong> — Go to Bookmark 2</p>
+<p><strong>ctrl+3</strong> — Go to Bookmark 3</p>
+<p><strong>ctrl+4</strong> — Go to Bookmark 4</p>
+<p><strong>alt+ctrl+F4</strong> — Open image in external editor</p>
+<p><strong>alt+HOME</strong> — Jump to Navigation Bar</p>
+<p><strong>F4</strong> — Open editor for the selected item and give focus to it</p>
+<p><strong>ctrl+E</strong> — Show list of recently viewed files</p>
+<p><strong>shift+ctrl+E</strong> — Show list of recently changed files</p>
+<p><strong>alt+ctrl+HOME</strong> — Navigate to one of the related or linked files</p>
+<p><strong>alt+RIGHT</strong> — Activate next tab</p>
+<p><strong>shift+alt+RIGHT</strong> — Select Next Tab in multi-editor file</p>
+<p><strong>alt+LEFT</strong> — Activate previous tab</p>
+<p><strong>shift+alt+LEFT</strong> — Select Previous Tab in multi-editor file</p>
+<h2>Navigation II</h2>
+<p><strong>alt+ctrl+H</strong> — Browse call hierarchy for the selected method</p>
+<p><strong>ctrl+5</strong> — Go to Bookmark 5</p>
+<p><strong>ctrl+6</strong> — Go to Bookmark 6</p>
+<p><strong>ctrl+7</strong> — Go to Bookmark 7</p>
+<p><strong>ctrl+8</strong> — Go to Bookmark 8</p>
+<p><strong>ctrl+9</strong> — Go to Bookmark 9</p>
+<p><strong>alt+ctrl+B</strong> — Navigate to the implementation of class or method</p>
+<p><strong>shift+ctrl+BACKSPACE</strong> — Move through the most recent change points</p>
+<p><strong>shift+ctrl+H</strong> — Browse method hierarchy for the selected method</p>
+<p><strong>F2</strong> — Navigate to the next highlighted error in the active editor</p>
+<p><strong>shift+F2</strong> — Navigate to the previous highlighted error in the active editor</p>
+<p><strong>ctrl+U</strong> — Navigate to the declaration of the method that current method overrides or implements</p>
+<p><strong>shift+ctrl+0</strong> — Toggle Bookmark 0</p>
+<p><strong>shift+ctrl+1</strong> — Toggle Bookmark 1</p>
+<p><strong>shift+ctrl+2</strong> — Toggle Bookmark 2</p>
+<p><strong>shift+ctrl+3</strong> — Toggle Bookmark 3</p>
+<p><strong>ctrl+F11</strong> — Toggle Bookmark With Mnemonic</p>
+<p><strong>ctrl+H</strong> — Browse hierarchy for the selected class</p>
+<h2>Navigation III</h2>
+<p><strong>ctrl+]</strong> — Move Caret to Code Block End</p>
+<p><strong>shift+ctrl+]</strong> — Move Caret to Code Block End with Selection</p>
+<p><strong>ctrl+[</strong> — Move Caret to Code Block Start</p>
+<p><strong>shift+ctrl+[</strong> — Move Caret to Code Block Start with Selection</p>
+<p><strong>shift+END</strong> — Move Caret to Line End with Selection</p>
+<p><strong>shift+HOME</strong> — Move Caret to Line Start with Selection</p>
+<p><strong>shift+ctrl+RIGHT</strong> — Move Caret to Next Word with Selection</p>
+<p><strong>ctrl+HOME</strong> — Move Caret to Text Start</p>
+<p><strong>shift+alt+DOWN</strong> — Move selected lines one line down</p>
+<p><strong>shift+alt+UP</strong> — Move selected lines one line up</p>
+<p><strong>F7</strong> — Move to the Next Difference</p>
+<p><strong>shift+F7</strong> — Move to the previous difference</p>
+<h2>Refactoring</h2>
+<p><strong>shift+F5</strong> — Create a copy of the selected class, file or directory in the same package/directory</p>
+<p><strong>alt+ctrl+C</strong> — Replace selected expression with a constant</p>
+<p><strong>shift+alt+ctrl+C</strong> — Copy reference to selected class, method or function</p>
+<p><strong>F5</strong> — Create a copy of the selected class</p>
+<p><strong>alt+ctrl+N</strong> — Inline the selected method or variable</p>
+<p><strong>alt+ctrl+M</strong> — Turn the selected code fragment into a method</p>
+<p><strong>F6</strong> — Move the selected class, method, package or static member to another package or class and correct all references</p>
+<p><strong>alt+ctrl+P</strong> — Turn the selected expression into method parameter</p>
+<p><strong>shift+F6</strong> — Rename the selected symbol and correct all references</p>
+<p><strong>alt+DEL</strong> — Delete the selected class, method or field, checking for usages</p>
+<p><strong>alt+ctrl+J</strong> — Surrounds the selection with one of the template</p>
+<p><strong>alt+ctrl+V</strong> — Put a result of the selected expression into a variable</p>
+---
+id: pycharm
