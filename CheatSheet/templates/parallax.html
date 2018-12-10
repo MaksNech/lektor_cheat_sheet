@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="webmadewell">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CheatSheet</title>
+
+
+
+
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+    <link rel="stylesheet" href="{{ '/static/style-parallax.css'|url }}">
+
+</head>
+
+<body>
+
+
+<div class="sample-header">
+    <div class="sample-header-section">
+        <h1>{% block title %}{% endblock %}</h1>
+    </div>
+</div>
+
+<div id="navbar">
+
+    {% for href, title in [
+    ['/', 'Home'],
+    ['/linux', 'Linux'],
+    ['/git', 'Git'],
+    ['/pycharm', 'PyCharm']
+    ] %}
+    <a href="{{ href|url }}">{{ title }}</a>
+    {% endfor %}
+
+</div>
+
+
+<div class="sample-section-wrap">
+    <div class="sample-section">
+        {% block body %}
+        {% endblock %}
+    </div>
+</div>
+<script src='https://code.jquery.com/jquery-latest.min.js'></script>
+
+
+<script src="{{ '/static/index-parallax.js'|url }}"></script>
+
+<footer id="footer">
+    &copy; Copyright 2018 by Maksym Nechypurenko.
+</footer>
+</body>
+
+</html>
