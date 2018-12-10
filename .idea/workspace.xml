@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3a5167b-bf99-4fbd-a882-2002937d29db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheatSheet/assets/static/index-parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/CheatSheet/assets/static/index-parallax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheatSheet/assets/static/style-parallax.css" beforeDir="false" afterPath="$PROJECT_DIR$/CheatSheet/assets/static/style-parallax.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheatSheet/content/git/contents.lr" beforeDir="false" afterPath="$PROJECT_DIR$/CheatSheet/content/git/contents.lr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheatSheet/templates/parallax.html" beforeDir="false" afterPath="$PROJECT_DIR$/CheatSheet/templates/parallax.html" afterDir="false" />
-    </list>
+    <list default="true" id="f3a5167b-bf99-4fbd-a882-2002937d29db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +130,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="961" height="1080" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25643897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
