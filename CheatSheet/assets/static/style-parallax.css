@@ -1,9 +1,11 @@
 .webmadewell {
   background-color: #141414;
 }
+
 body {
   margin: 0;
 }
+
 .sample-header {
   position: fixed;
   left: 0;
@@ -14,6 +16,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .sample-header::before {
   content: "";
   position: absolute;
@@ -24,11 +27,13 @@ body {
 
   opacity: 0.3;
 }
+
 .sample-header-section {
 text-align: center;
   position: relative;
   padding: 15% 0 10%;
   max-width: 640px;
+  height: 640px;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -36,7 +41,18 @@ text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
-
+.sample-header-section h1{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #ccffb2;
+  letter-spacing: .1em;
+  text-shadow:
+      -1px -1px 1px #111,
+      2px 2px 1px #363636;
+}
 
 h1 {
   font-weight: 500;
@@ -67,7 +83,6 @@ color: #ccffb2;
 
 /* Style the navbar */
 #navbar {
-
   background-color: black;
   z-index: 1;
   position: fixed;
@@ -89,6 +104,7 @@ color: #ccffb2;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-size: large;
 }
 
 #navbar a:hover {
@@ -111,7 +127,5 @@ color: #ccffb2;
 #footer:hover {
   opacity: 1;
 }
-
-
 
 
