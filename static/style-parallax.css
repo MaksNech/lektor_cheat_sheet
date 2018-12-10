@@ -9,7 +9,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-image: url('/back.jpg');
+  background-image: url('https://maksnech.github.io/pylab2018_ht_1/static/back.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
