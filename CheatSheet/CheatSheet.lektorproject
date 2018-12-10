@@ -1,3 +1,5 @@
 [project]
 name = CheatSheet
 
+[servers.ghpages]
+target = ghpages+https://MaksNech/pylab2018_ht_1
