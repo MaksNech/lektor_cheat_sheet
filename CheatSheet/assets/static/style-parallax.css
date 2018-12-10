@@ -9,7 +9,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-image: url('/assets/static/back.jpg');
+  background-image: url('./static/back.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
