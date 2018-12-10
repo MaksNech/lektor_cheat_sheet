@@ -1,0 +1,122 @@
+_model: page
+---
+title: Basic commands for Git
+---
+_slug: git
+---
+_template: page.html
+---
+body:
+
+<h2>What is Git?</h2>
+<p>Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.<p>
+<h2>Git Commands</h2>
+<p><strong>1. git config</strong><br>
+Usage: git config –global user.name “[name]”<br>
+Usage: git config –global user.email “[email address]”<br>
+This command sets the author name and email address respectively to be used with your commits.
+</p>
+<p><strong>2. git init</strong><br>
+Usage: git init [repository name]<br>
+This command is used to start a new repository.
+</p>
+<p><strong>3. git clone</strong><br>
+Usage: git clone [url]<br>
+This command is used to obtain a repository from an existing URL.
+</p>
+<p><strong>4. git add</strong><br>
+Usage: git add [file]<br>
+This command adds a file to the staging area.
+</p>
+<p><strong>5. git commit</strong><br>
+Usage: git commit -m “[ Type in the commit message]” <br>
+This command records or snapshots the file permanently in the version history.<br>
+Usage: git commit -a <br>
+This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+</p>
+<p><strong>6. git diff</strong><br>
+Usage: git diff <br>
+This command shows the file differences which are not yet staged.<br>
+Usage: git diff –staged<br>
+This command shows the differences between the files in the staging area and the latest version present.<br>
+Usage: git diff [first branch] [second branch] <br>
+This command shows the differences between the two branches mentioned.
+</p>
+<p><strong>7. git reset</strong><br>
+Usage: git reset [file] <br>
+This command unstages the file, but it preserves the file contents.<br>
+Usage: git reset [commit]  <br>
+This command undoes all the commits after the specified commit and preserves the changes locally.<br>
+Usage: git reset –hard [commit] <br>
+This command discards all history and goes back to the specified commit.
+</p>
+<p><strong>8. git status</strong><br>
+Usage: git status<br>
+This command lists all the files that have to be committed.
+</p>
+<p><strong>9. git rm</strong><br>
+Usage: git rm [file]<br>
+This command deletes the file from your working directory and stages the deletion.
+</p>
+<p><strong>10. git log</strong><br>
+Usage: git log<br>
+This command is used to list the version history for the current branch.<br>
+Usage: git log –follow[file]<br>
+This command lists version history for a file, including the renaming of files also.
+</p>
+<p><strong>11. git show</strong><br>
+Usage: git show [commit]<br>
+This command shows the metadata and content changes of the specified commit.
+</p>
+<p><strong>12. git tag</strong><br>
+Usage: git tag [commitID]<br>
+This command is used to give tags to the specified commit.
+</p>
+<p><strong>13. git branch</strong><br>
+Usage: git branch<br>
+This command lists all the local branches in the current repository.<br>
+Usage: git branch [branch name]<br>
+This command creates a new branch.<br>
+Usage: git branch -d [branch name]<br>
+This command deletes the feature branch.
+</p>
+<p><strong>14. git checkout</strong><br>
+Usage: git checkout [branch name]<br>
+This command is used to switch from one branch to another<br>
+Usage: git checkout -b [branch name]<br>
+This command creates a new branch and also switches to it.
+</p>
+<p><strong>15. git merge</strong><br>
+Usage: git merge [branch name]<br>
+This command merges the specified branch’s history into the current branch.
+</p>
+<p><strong>16. git remote</strong><br>
+Usage: git remote add [variable name] [Remote Server Link]<br>
+This command is used to connect your local repository to the remote server.
+</p>
+<p><strong>17. git push</strong><br>
+Usage: git push [variable name] master<br>
+This command sends the committed changes of master branch to your remote repository.<br>
+Usage: git push [variable name] [branch]<br> 
+This command sends the branch commits to your remote repository.<br>
+Usage: git push –all [variable name]<br>
+This command pushes all branches to your remote repository.<br>
+Usage: git push [variable name] :[branch name]<br>
+This command deletes a branch on your remote repository. 
+</p>
+<p><strong>18. git pull</strong><br>
+Usage: git pull [Repository Link]<br>
+This command fetches and merges changes on the remote server to your working directory.
+</p>
+<p><strong>19. git stash</strong><br>
+Usage: git stash save<br>
+This command temporarily stores all the modified tracked files.<br>
+Usage: git stash pop<br>
+This command restores the most recently stashed files.<br>
+Usage: git stash list<br>
+This command lists all stashed changesets.<br>
+Usage: git stash drop<br> 
+This command discards the most recently stashed changeset.
+</p>
+---
+id: git
