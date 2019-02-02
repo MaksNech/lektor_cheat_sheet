@@ -16,4 +16,6 @@ Inside CheatSheet directory run project with terminal command:
 ```bash
 lektor server
 ```
+### Project deployed on:
+[a link](https://maksnech.github.io/pylab2018_ht_1/)
 
