@@ -17,5 +17,5 @@ Inside CheatSheet directory run project with terminal command:
 lektor server
 ```
 ### Project deployed on:
-[https://maksnech.github.io/pylab2018_ht_1/](https://maksnech.github.io/pylab2018_ht_1/)
+[https://maksnech.github.io/lektor_cheat_sheet/](https://maksnech.github.io/lektor_cheat_sheet/)
 
