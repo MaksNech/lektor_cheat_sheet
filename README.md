@@ -1,4 +1,4 @@
-# Home task 1
+# Lektor CMS app.
 
 ## 1: Initial Setup
 
